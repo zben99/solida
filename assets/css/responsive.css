@@ -1,0 +1,769 @@
+@charset "utf-8";
+/**
+*
+* -----------------------------------------------------------------------------
+*
+* Template : solida - Business Agency WordPress Theme
+* Author : Tentaz
+* Author URI : https://tentaz.com/
+*
+* ----------------------------------------------------------------------------
+*
+**/
+
+
+@media only screen and (min-width: 1300px) {
+	.container{
+		max-width: 1200px;
+		width: 100%;
+	}
+}
+
+/* Layout: Min 992px to Higher. */
+
+@media only screen and (min-width: 992px) {
+	.menu-area .mobile-menu-link, 
+	.menu-area .mobile-menu-container {
+	    display: none;
+	}
+	.contents-sticky.full-layout-left {
+		order: 2;
+	}
+	.padding-full-layout-left .dynamic-sidebar {
+	  	padding: 0px 20px 20px 0;
+	}
+	.mobile-menus{
+		display: none;
+	}
+}
+
+
+
+/* Medium Layout:1199px. */
+
+@media only screen and (max-width: 1199px) {
+	
+	.widget.ten_ser ul.menu li a {
+	  	font-size: 15px;
+	}
+	.single_service_box .tentaz-addon-services.services-style1 .services-part {
+	  	padding: 0 15px 35px 15px;
+	}
+	.tentaz-addon-services.services-style3 .services-part .services-icon img {
+	  	width: 50px;
+	}
+	.tentaz-addon-services.services-style4 .services-parts .services-btn-part {
+		margin-left: 44px;
+	}
+	#tentaz-header .toolbar-area-here .tentaz-contact-message,
+	#tentaz-header .toolbar-area-here .tentaz-contact ul li{
+		font-size: 12px;
+	}
+	.tentaz-cta-footer h2 {
+	  	font-size: 45px;
+	  	line-height: 55px;
+	}
+	#tentaz-header .toolbar-area-here .tentaz-contact ul li {
+	  	padding-right: 12px;
+	  	margin-right: 12px;
+	}
+	.menu-area .navbar ul li{
+		padding-right: 0;
+	}
+	.tentaz-unique-slider.tentaz-portfolio-style2 .single-case-studies .case-content {
+	  	padding: 25px 15px 30px 20px;
+	}
+	.tentaz-header-one .header-inner-wrap .tentaz-cols-wrap-wrap .tentaz-header-quote .tentaz-phone {
+	 	margin-right: 0;
+	}
+	.tentaz-header-one .menu-area .navbar ul li a {
+	  	padding-right: 18px;
+	}
+	.tentaz-header-one .menu-area .navbar ul li > a, 
+	.tentaz-header-one .tentaz_sidenav_wrap .widget_nav_menu ul li a{
+		font-size: 13px;
+	}
+	.tentaz-hero-slider .hero-inner-slide .containers .slide-content{
+		padding-left: 0;
+		padding-right: 20px;
+	}
+	.tentaz-team-grid .team-grid-figure .team_desina li.name{
+		font-size: 16px;
+	}
+	.tentaz-team-grid .team-grid-figure .team_desina li.deg {
+	  	font-size: 14px;
+	}
+	.tentaz-addon-services.services-style1 .services-part .services-title .title {
+	  	font-size: 20px;
+	}
+	.tentaz-clients-slider .style__2 .inner-items .con__section_tn {
+	  	margin-left: 100px;
+	  	max-width: 78%;
+	  	flex: 0 0 78%;
+	}
+	.tentaz-footer-here .tentaz-contact li{
+		font-size: 20px;
+	}
+	.tentaz-services-slider .tentaz-service-slider .service-down-wrap .service-title a h3 {
+	  	font-size: 18px;
+	  	line-height: 22px;
+	}
+	.tentaz-clients-slider .style__2 .inner-items .quote-image {
+	  	max-width: 22%;
+	  	flex: 0 0 22%;
+	}
+	.tentaz-services-slider .tentaz-service-slider .service-down-wrap{
+		left: 30px;
+	}
+	.tentaz-footer-here .footer-bottom .widget.widget_nav_menu ul li a {
+	  	padding-left: 25px !important;
+	}
+	.menu-area .navbar ul li a {
+		padding-left: 0px;
+	}
+	.tentaz-phone a {
+	  	font-size: 13px;
+	}
+	.menu-area .navbar ul li > a{
+	  	font-size: 14px;
+	}
+	.tentaz_offcanvas_icon {
+	  	margin: 0 0 0 15px;
+	}
+	#tentaz-header .tentaz-quote {
+	  	margin-left: 18px;
+	}
+	.tentaz-header-two .container {
+	  	max-width: 1020px;
+	}
+	.tentaz-breadcrumbs .breadcrumbs-single {
+	  	background-position-x: 8%;
+	}
+	.tentaz-animated-heading .description br{
+		display: none;
+	}
+	.tentaz-addon-services.services-style1 .services-part{
+		display: block;
+	}
+	.tentaz-addon-services.services-style1 .services-part .services-text {
+	  max-width: 100%;
+	}
+}
+
+/* Medium Layout: 991px. */
+
+
+@media only screen and (min-width: 992px) {
+	.tentaz-header-two .menu-area .tentaz-cols-wrap-wrap .tentaz-header-quote {
+	  display: none !important;
+	}
+	.col-lg-3.footer-2{
+	    width: 17%;
+	}
+
+	.col-lg-3.footer-3{
+	    width: 33%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+    #tentaz-header .toolbar-area-here.mobile_topbar_hide{
+    	display: none;
+    }
+    .tentaz-hero-slider.tentaz-herostyle2 .tentaz-hero-slide::before {
+		left: 0;
+		top: 0;
+		max-width: 100%;
+		height: 100%;
+		border-radius: 0;
+		transform: rotate(0deg);
+		width: 100%;
+		z-index: 1;
+    }
+ 	.toolbar-contact{
+ 		display: none;
+ 	}
+ 	.tentaz-cta-footer{
+ 		display: block;
+ 		text-align: center;
+ 	}
+ 	.tentaz-cta-footer h2 {
+ 	  	margin-bottom: 20px;
+ 	}
+ 	.tentaz-footer-here .tentaz-footer-top-here {
+ 	  	padding: 260px 0 60px;
+ 	}
+ 	#tentaz-header .toolbar-area-here .tentaz-contact ul{
+ 		display: block;
+ 		text-align: center;
+ 		padding: 0 0 6px;
+ 	}
+ 	#tentaz-header .toolbar-area-here .tentaz-contact ul li::before {
+ 	  	top: 7px;
+ 	}
+ 	#tentaz-header .toolbar-area-here .tentaz-contact ul li {
+ 	  	line-height: 24px;
+ 	}
+ 	.tentaz_sidenav_wrap .widget_nav_menu ul li a {
+ 	  	font-size: 16px;
+ 	}
+ 	.tentaz_sidenav_wrap .menu li ul.sub-menu li a {
+ 	  	font-size: 14px;
+ 	}
+ 	.tentaz-offcanvas-contents{
+ 		display: none;
+ 	}
+    .menu-area .tentaz-cols-wrap-wrap .tentaz-contact-info{
+    	display: none;
+    }
+    #tentaz-header:not(.tentaz-header-one) .toolbar-area-here .toolbar-sl-share ul{
+    	text-align: center;
+    }
+    #tentaz-header:not(.tentaz-header-one) .tentaz-cols-wrap-wrap::before {
+      	left: calc(-78%);
+  	}
+    .tentaz-clients-slider .style__2 .inner-items{
+    	display: block;
+    }
+    .tentaz-clients-slider .style__2 .inner-items .con__section_tn {
+      	margin-left: 0px;
+      	max-width: 100%;
+  	}
+  	.tentaz-clients-slider .style__2 .inner-items .quote-image {
+  	  	margin: 0 0 50px;
+  	  	width: 250px;
+  	  	max-width: unset;
+  	}
+  	.tentaz-clients-slider .style__2 .inner-items .con__section_tn .tentaz-content {
+  	  	max-width: 100%;
+  	}
+    .tentaz-footer-here .widget.widget_mc4wp_form_widget{
+    	position: relative;
+    	transform: translateY(0);
+    }
+    .tentaz-footer-here .tentaz-footer-top-here.is_news_let {
+      	padding: 75px 0 25px;
+    }
+    .tentaz-case-studies .single-case-studies .inner-case-studies{
+    	display: block;
+    }
+    .tentaz-case-studies .single-case-studies .case-img {
+      	max-width: 100%;
+    }
+    
+    .tentaz-case-studies .single-case-studies .case-img{
+    	border-radius: 0;
+    }
+    .tentaz-case-studies .single-case-studies .case-content .case-title {
+      	max-width: 100%;
+    }
+    .tentaz-clients-slider .style__3 .slick-next,
+    .tentaz-clients-slider .style__3 .slick-prev{
+    	display: none !important;
+    }
+    .tentaz-sidebarmenu-area{
+    	display: none;
+    }
+    .footer-bottom{
+    	text-align: center;
+    }
+    .footer-bottom .copyright-widget .widget_nav_menu ul.menu {
+      	justify-content: center;
+    }
+    .tentaz-footer-here .footer-bottom .widget.widget_nav_menu ul li a {
+      	padding: 6px 0 !important;
+      	margin: 0 20px;
+    }
+    .tentaz-footer-here .widget.widget_nav_menu ul.menu {
+      	margin-top: 0;
+    }
+    .footer-bottom .copyright-widget-social .footer_social {
+      	margin: 15px 0 6px;
+    }
+    .tentaz-footer-here .widget.widget_mc4wp_form_widget {
+      	display: block;
+  	}
+  	.tentaz-footer-here .widget.widget_mc4wp_form_widget .footer-title {
+	  	max-width: 100%;
+	}
+	.tentaz-footer-here .widget.widget_mc4wp_form_widget .mc4wp-form {
+	  	max-width: 100%;
+	  	width: 100%;
+	}
+    .tentaz_sidenav_wrap .widget_nav_menu ul li a{
+    	color: #ffffffc4;
+    }
+    #tentaz-header .logo-area .site-title a {
+      	padding:0;
+    }
+    .footer-0 {
+      	padding-right: 15px;
+    }
+    #tentaz-header .logo-area {
+      	line-height: 1.5;
+    }
+    #tentaz-header .logo-area a {
+      	font-size: 27px;
+    }
+    .footer-1, .footer-2 {
+      	padding-left: 15px;
+      	padding-top: 20px;
+    }
+    .tentaz-sidebarmenu-area.tentaz-mobile-hamburger{
+        display: block !important;
+    }
+    #tentaz-header .toolbar-area-here .toolbar-contact ul{
+    	text-align: center;
+    }
+    #tentaz-header .toolbar-area-here .toolbar-sl-share ul {
+      	text-align: center;
+  	}
+    .tentaz-cols-wrap.tentaz-responsive-menu{
+    	display: none;
+    }
+    .tentaz_sidenav_wrap .widget_nav_menu ul li a {
+      	padding: 9px 0;
+      	line-height: 26px;
+  	}
+  	#mobile_menu .tentaz_submenu_button:before,
+  	#mobile_menu .tentaz_submenu_button.submenu-opened:after{
+  		color: #0a0a0a;
+  	}
+  	#mobile_menu .sub-menu .tentaz_submenu_button{
+  		top: 0;
+  	}
+  	body.logged-in .menu-wrap-offcanvas, .menu-wrap-offcanvas{
+	  	padding: 55px 50px 50px 50px;
+	}
+	.tentaz_sidenav_wrap .widget_nav_menu ul li+li {
+	  	border-top: 1px solid #222;
+	}
+	.tentaz_sidenav_wrap .widget_nav_menu ul li:last-child{
+		border-bottom: none !important;
+	}
+	#tentaz-header .tentaz-cols-wrap-wrap {
+	  	padding: 10px 0;
+	}
+	.dynamic-sidebar {
+	  	padding: 0px 0 20px 0;
+	  	margin-top: 50px;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.tentaz-footer-here .copyright.text-left {
+	  	text-align: center !important;
+	}
+	.tentaz-hero-slider .hero-inner-slide.style1 {
+	  	padding: 50px 0 76px;
+	}
+	.page-error .content-area h2 span {
+	  	font-size: 140px;
+	  	line-height: 140px;
+	}
+	.tentaz-unique-slider.tentaz-portfolio-style2 .single-case-studies .case-content .case__btn {
+		position: relative;
+		top: 0;
+		right: 0;
+		margin: 14px 0 0;
+		transform: translateY(0%);
+	}
+	.tentaz-case-studies.tentaz-portfolio-style2 .single-case-studies .case-content {
+	  bottom: 0 !important;
+	}
+	.tentaz-cta-footer {
+	  	padding: 35px 20px 50px;
+	}
+	.tentaz-cta-footer h2 {
+	  	font-size: 28px;
+	  	line-height: 45px;
+	}
+	.tentaz-footer-here .tentaz-footer-top-here {
+	  	padding: 210px 0 30px;
+	}
+	.tentaz-hero-slider .hero-inner-slide.style2 .slide-content{
+		padding-left: 0;
+	}
+	.tentaz-hero-slider .hero-inner-slide.style2 {
+	  	padding: 36px 0 75px;
+	  	position: relative;
+	}
+	.tentaz-hero-slider .hero-inner-slide.style2 .container{
+		position: relative;
+		z-index: 1;
+	}
+	.tentaz-hero-slider .hero-inner-slide .containers {
+	  	display: block;
+	  	padding: 0 20px;
+	}
+	.tentaz-blog-grid .blog-inner-wrap .blog-down-wrap .post-categories {
+		position: relative;
+		left: 0;
+		display: inline-block;
+	}
+	.tentaz-team-grid .team-grid-figure .team_desina {
+	  	margin: 0 0 30px;
+	}
+	.tentaz-hero-slider .hero-inner-slide .containers .slide-image img {
+	  	border-radius: 50px;
+	  	margin-bottom: 35px;
+	}
+	.tentaz-hero-slider .hero-inner-slide .containers .slide-image {
+	  	max-width: 100%;
+	}
+	.tentaz-hero-slider .hero-inner-slide .containers .slide-content {
+	  	padding-left: 0;
+	  	padding-right: 0;
+	  	width: 100%;
+	}
+	.tentaz-hero-slider.tentaz-unique-slider .slick-next,
+	.tentaz-hero-slider.tentaz-unique-slider .slick-prev{
+		display: none;
+	}
+	.page-error .content-area h2 {
+	  	font-size: 30px;
+	  	margin-bottom: 40px;
+	}
+
+	.tentaz-addon-services.services-style1 .services-part {
+	  	display: block;
+	}
+	#tentaz-header:not(.tentaz-header-one) .tentaz-cols-wrap-wrap::before {
+		left: calc(-65%);
+	}
+	.tentaz-addon-services.services-style1 .services-part .services-icon {
+	  	max-width: 100%;
+	}
+	.tentaz-addon-services.services-style1 .services-part .services-text {
+	  	max-width: 100%;
+	}
+	.tentaz-addon-services.services-style1 .services-part {
+	  	display: block;
+	  	padding: 25px 25px 34px 25px;
+	}
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu {
+	  	justify-content: center;
+	}
+	.tentaz-clients-slider2 .inner-items{
+		display: block;
+	}
+	.tentaz-clients-slider2 .inner-items .tentaz-testimonial-content {
+	  	max-width: 100%;
+	  	text-align: left;
+	  	padding-left: 0;
+	}
+	.tentaz-clients-slider2 .inner-items .tentaz-author {
+	  	max-width: 201px;
+	  	transform: skewY(0deg);
+	}
+	.portfolio_style_8 .tentaz_popup_content .content__item-text {
+	  	padding-left: 0;
+	  	padding-top: 40px;
+	}
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu li:first-child a{
+		margin-left: 0;
+		padding-left: 0 !important;
+	}
+	.tentaz-footer-here .col-md-6.tentaz-copy-menu{
+		order: 2;
+	}
+	.tentaz-portfolio-grid-style6 .single-case-studies .inner-case-studies {
+	  	display: block;
+	}
+	.tentaz-portfolio-grid-style6 .single-case-studies .inner-case-studies .case-content {
+	  	padding: 30px 0 0;
+	}
+	.backtb {
+	  	display: block;
+	}
+	.backtb .tab-image img {
+	  	padding-left: 0;
+	}
+	.portfolio_style_8 .tentaz_popup_content {
+	  display: block;
+	}
+	.tentaz-hero-slider .hero-inner-slide .video-icon {
+		position: relative;
+		height: 100px;
+		width: 100px;
+		top: 0;
+		transform: translateY(0);
+		margin-top: 50px;
+	}
+	.tentaz-breadcrumbs .breadcrumbs-inner {
+	    padding: 90px 0 90px;
+	}
+	.tentaz-portfolio-grid-style7 .single-case-studies .case-img {
+	  	position: relative;
+	  	top: 0;
+	  	left: 0;
+	  	transform: unset;
+	  	overflow: visible;
+	  	visibility: visible;
+	}
+	.tentaz-portfolio-grid-style7 .single-case-studies .case-img img {
+	  	transform: scale(1);
+	  	width: 100%;
+	}
+	.tentaz-portfolio-grid-style7 .single-case-studies .tentaz-port-btn {
+	  	display: block;
+	}
+	.tentaz-portfolio-grid-style7 .tentaz-port-meta{
+		margin-top: 20px;
+	}
+	.tentaz-portfolio-grid-style7 .single-case-studies .case-content .tentaz-port-title {
+	  	margin: 0 0 15px;
+	}
+	.tentaz-portfolio-grid-style7 .single-case-studies .tentaz-port-btn .tentaz-btn{
+		padding: 13px 26px 12px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu {
+	  	display: block;
+	  	text-align: center;
+	}
+	.tentaz-portfolio-filter-style1.tentaz-portfolio-filter .case-content .case__btn {
+		position: relative;
+		top: 0;
+		right: 0;
+		margin: 8px 0 0;
+		transform: translateY(0);
+	}
+	.single_service_box .tentaz-addon-services.services-style1 .services-part {
+	  	padding: 0 35px 35px 35px;
+	}
+	#tentaz-header .toolbar-area-here {
+	  	padding: 10px 0;
+	}
+	.pricing-list .tentaz-price-wrap .price-down-wrap{
+		display: block;
+		padding: 12px;
+		margin-bottom: 0px;
+		margin-left: 0;
+		border: none;
+	}
+	.pricing-list .tentaz-price-wrap .image-wrap {
+		display: block;
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: translateY(0);
+		box-shadow: none;
+		border-radius: 50%;
+	}
+	.pricing-list .tentaz-price-wrap {
+	  position: relative;
+	  border: 1px dashed #DDE0E3;
+	  padding: 15px;
+	  margin-bottom: 25px;
+	}
+	#tentaz-header .toolbar-area-here .tentaz-contact ul{
+		text-align: center;
+	}
+	.tentaz-case-studies .single-case-studies .case-content {
+		padding: 25px 35px 25px 0;
+		position: relative;
+		left: 0;
+		bottom: 0 !important;
+		right: 0;
+		border-radius: 0;
+	}
+	#tentaz-header .toolbar-area-here .tentaz-contact ul li {
+		display: block;
+		line-height: 25px;
+		padding-right: 0;
+		margin-right: 0;
+	}
+	#tentaz-header .toolbar-area-here .tentaz-contact ul li::before{
+		display: none;
+	}
+	#tentaz-header:not(.tentaz-header-one) .tentaz-cols-wrap-wrap::before {
+		left: calc(-50%);
+	}
+	.tentaz-addon-services.services-style1 .services-part .services-text {
+	  	padding: 25px 0px 25px 0px;
+	}
+	.tentaz-addon-services.services-style1 .services-part .services-text .services-title .title {
+	  	margin: 0 0 10px;
+	}
+
+	.tentaz-hero-slider .hero-button{
+		display: block;
+	}
+	.archive .tentaz-blog .blog-item .blog-img .full-blog-content, 
+	.blog .tentaz-blog .blog-item .blog-img .full-blog-content {
+	  	margin-top: 0px;
+	  	margin-right: 0;
+	  	padding: 35px 20px;
+	}
+	
+	.tentaz-hero-slider .hero-button li {
+	  	margin: 20px 0 0;
+	}
+	.tentaz-footer-here .widget.widget_mc4wp_form_widget .mc4wp-form,
+	.tentaz-footer-here .widget.widget_mc4wp_form_widget .footer-title{
+		padding-left: 0;
+		background: none;
+	}
+	
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu li a{
+		margin-left: 0;
+		padding-left: 0 !important;
+	}
+	.footer-bottom .copyright-widget .widget_nav_menu ul.menu li a:after{
+		display: none;
+	}
+	.tentaz-hero-slider.tentaz-unique-slider .slick-next,
+	.tentaz-hero-slider.tentaz-unique-slider .slick-prev{
+		display: none !important;
+	}
+	#tentaz-header .tentaz-header-quote .sidebarmenu-search-here,
+	#tentaz-header .tentaz-header-quote .tentaz-phone{
+		display: none;
+	}
+	.tentaz-tab-here ul.nav.nav-tabs li button{
+		margin-bottom: 20px;
+	}
+	#tentaz-header .tentaz-quote a {
+	  	font-size: 13px;
+	  	padding: 12px 20px 10px 20px;
+	}
+	.tentaz-breadcrumbs .page-title{
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.blog .tentaz-blog .blog-item .full-blog-content, 
+	.archive .tentaz-blog .blog-item .full-blog-content {
+	  	padding: 0 20px 30px;
+	}
+	.tentaz-breadcrumbs .breadcrumbs-single {
+	  	background-position-x: 8%;
+	}
+	body.logged-in .menu-wrap-offcanvas, 
+	.menu-wrap-offcanvas {
+	    padding: 55px 32px 50px 32px;
+	}
+	.menu-wrap-offcanvas .inner-offcanva-wrap .tentaz-nav-link {
+	    left: 33px;
+	}
+	.tentaz-tab-here ul.tentaz__experience {
+	   display: block;
+	}
+	.tentaz-tab-here ul.tentaz__skills li {
+	   flex: 0 0 22%;
+	   margin-bottom: 22px;
+	}
+	.tentaz-tab-here ul.tentaz__skills li.tentaz__skill_text {
+	  	padding-bottom: 20px;
+	}
+	.tentaz-tab-here ul.tentaz__skills {
+	  	padding-bottom: 10px;
+	}
+	.tentaz-blog-grid .blog-inner-wrap .blog-down-wrap {
+	  	position: relative;
+	  	right: 0;
+	  	bottom: 0;
+	  	left: 0;
+	}
+	.tentaz-blog-grid.default .blog-inner-wrap {
+	  	margin: 0;
+	}
+	#tentaz-header .toolbar-area-here .tentaz-contact.tentaz-contacts ul{
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	#tentaz-header .toolbar-area-here .toolbar-contact ul li,
+	#tentaz-header .toolbar-area-here .toolbar-sl-share ul li{
+	  	line-height: 26px;
+	}
+	.tentaz-cta-footer h2 {
+	  	font-size: 26px;
+	  	line-height: 36px;
+	}
+	.tentaz-clients-slider .style__2 .inner-items .quote-image {
+	  	transform: skew(0deg);
+	}
+	#tentaz-header .logo-area a img {
+		height: 25px;
+	}
+	.woocommerce ul.products[class*="columns-"] li.product, .woocommerce-page ul.products[class*="columns-"] li.product {
+	  	width: 100%;
+	  	float: none;
+	  	clear: both;
+	  	margin: 0 0 1.992em;
+	}
+	#tentaz-header .toolbar-area-here .opening {
+	  	border-right: none;
+	  	display: block !important;
+	  	padding-right: 0;
+	  	margin-right: 0;
+	}
+	.btm-cate{
+		display: block;
+	}
+	.btm-cate li {
+	  	float: none;
+	}
+	.blog .tentaz-blog .blog-item.no-thumbs .full-blog-content, .archive .tentaz-blog .blog-item.no-thumbs .full-blog-content{
+		padding: 35px 20px;
+	}
+	.full-blog-content .btm-cate li + li{
+		margin: 0;
+	}
+	.full-blog-content .btm-cate li + li::before{
+		display: none;
+	}
+	.tentaz-services-slider .tentaz-service-slider .service-down-wrap{
+		left: 0;
+		position: relative;
+	}
+	.tentaz-services-slider .tentaz-service-slider {
+	  	margin: 0 0 20px;
+	}
+	.tentaz-clients-slider .style__2 .inner-items .quote-image {
+	  	width: 210px;
+	}
+	.tentaz-clients-slider .style__2 .inner-items .quote-image img {
+	  	width: 130px;
+	  	padding: 50px 40px 50px 40px;
+	}
+	.tentaz-clients-slider .style__2 .inner-items {
+	  	padding: 40px 0px 45px;
+	}
+	.tentaz-clients-slider .style__2 .inner-items .con__section_tn .tentaz-content {
+	  	font-size: 20px;
+	  	line-height: 30px;
+	}
+	#tentaz-header .toolbar-area-here .toolbar-contact ul li::before {
+	  	top: 8px;
+	}
+	#tentaz-header .toolbar-area-here .toolbar-contact ul li.tentaz-contact-phone{
+	  	margin-right: 0;
+	  	padding-right: 0;
+	}
+	#tentaz-header.tentaz-header-two .toolbar-area-here .opening {
+	  	border-right: none;
+	}
+	#tentaz-header .toolbar-area-here .toolbar-sl-share ul li + li {
+	  	margin: 0 8px 6px;
+	}
+	#tentaz-header .toolbar-area-here .opening::before,
+	#tentaz-header .tentaz-quote{
+		display: none;
+	}
+	.tentaz-clients-slider .style__1 .inner-items .tentaz-bottom{
+		padding: 25px 12px 18px 12px;
+	}
+	.tentaz-clients-slider .style__1 .inner-items .tentaz-bottom .tentaz-author img{
+		margin: 0 auto;
+	}
+	.tentaz-clients-slider .style__1 .inner-items .tentaz-bottom {
+		margin: 30px 0 0;
+	}
+}
